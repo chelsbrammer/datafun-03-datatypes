@@ -40,9 +40,11 @@ with open("text_woodchuck.txt", "r") as fileObject:
 
 # Print the count and list of words
 word_ct = len(list_words)
+print(f'Word count: {word_ct}')
 
 # Print the count and list of unique words
 unique_word_ct = len(unique_words)
+print(f'Unique word count: {unique_word_ct}')
 
 
 # Create a random sentence
